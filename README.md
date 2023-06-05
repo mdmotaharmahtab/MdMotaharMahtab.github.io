@@ -91,4 +91,6 @@ mance and their implementation toughness in Bangla lingo.
 ## Awards
 - Winner, BRACU Intra University Programming Contest 2019
 - Merit Scholarship Award, BRAC University  (2020-2022)
--![Resume](/assets/resume.pdf)
+
+## Resume
+

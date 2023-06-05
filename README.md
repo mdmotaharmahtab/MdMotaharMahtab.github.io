@@ -1,55 +1,94 @@
-# Data Scientist
+# Machine Learning Engineer
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Frameworks: NLTK, PyTorch, Tensorflow, PyTorch Lightning, Huggingface, OpenCV, OpenMMLab, Keras, FastAI, Ray Tune, Wandb, TensorBoard,Pandas, Matplotlib, Seaborn
+#### Programming: Python, C/C++, JavaScript, SQL, Bash, JAVA, HTML/CSS, SQL
+#### Tools: REST API, Flask, Flask‑RESTful, Streamlit, Google Kubernetes, Docker, Cortex, GIT, Django, NodeJS, Google Cloud Platform, Amazon SageMaker, Tableau, Microsoft Office
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+- B.Sc (Hons), Computer Science & Engineering | BRAC University (_April 2022_)	| CGPA: 3.99							       		
+- H.S.C, Science	| Notredame College (_2017_) | GPA 5.0	 			        		
+- S.S.C, Science | A.K School and College (_2015_) | GPA 5.0
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+**Machine Learning Engineer @ GIGATECH, BEXIMCO (_September 2022 - Present_)**
+- Created a multi‑task named entity recognition (NER) and Parts of Speech (POS) model that achieved state‑of‑the‑art results in Bangla language
+by efficiently using external context from Wikipedia. 
+- Used Pytorch Profiler to reduce bottlenecks, Nvidia TensorRT to optimize the model and deployed this optimized model using Nvidia Triton Inference Server (TIS).
+- Created pre‑training scripts to train state‑of‑the‑art language models like GPT2, BERT, ELECTRA, RoBERTa using Distributed Data‑Parallel (DDP)
+strategy on multiple GPUs.
+- Collaborated with linguists to develop the tagset guidelines of Named Entity recognition, Parts of Speech and Lemmatization for Bangla lan‑
+guage to facilitate large‑scale annotation of Bangla Natinal Corpus(bdNC).
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+**Research Assistant (Remote) @ Qatar Computing Research Institute (QCRI) (_Septembert 2021 - December 2021_)**
+- Pretrained a HuBERT model on Bangla ASR dataset for joint task of speech and speaker recognition pipeline using SpeechBrain.
+- Assisted in enriching existing open source Bangla ASR datasets by adding more scirpted audion and correcting existing annotation.
+
+**Teacher Assistant & BRAC University (_April 2020 - April 2022_)**
+- Helped students with different coding assignments and helped teachers in checking scripts
+- Assisted students in conducting research in various fields and submitting papers into conference.
+- Assisted Teachers in lab classes and helped students with different course materials during consultation hour.
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### Bangla Clickbait Detector App
+[repo](https://github.com/MotaharMahtab/Bangla-Clickbait-Detector-App)
+-  Demo app created as a part of research work on Bangla Clickbait Detection using GAN‑Transformers. It takes a Bangla article title as input and
+outputs whether the title is a clickbait or non‑clickbait along with the prediction probability score. GAN‑Transformers is a Transformer network
+trained in generative adversarial training framework.
+- Tools used: Pytorch, Streamlit, Node.js
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+![clickbait_detection_demo](/assets/img/clickbait_detection_demo.gif)
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+### Bangla Article Headline Categorizer App
+[repo](https://github.com/MotaharMahtab/Bangla-Headline-Categorizer-App)
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+- Can categorize Bangla article headlines into eight different categories ‑ Economy, Education, Entertainment, Politics, International, Sports,
+National, and Science & Technology
+- Models used: State‑of‑the‑art Bangla ELECTRA model, Dataset used: Patrika Dataset. ‑ contains 400𝑘 Bangla news articles from prominent
+Bangla news sites.
+- Tools used: Pytorch, Streamlit, Node.js
+![Headline Categorizer Demo](/assets/img/headline_detector_demo.gif)
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+### EBRAC ‑ Online Learning App
+[repo](https://github.com/MotaharMahtab/EBRAC)
 
-![Bike Study](/assets/img/bike_study.jpeg)
+- A comprehensive online education platform where instructors can create different courses, upload course content, enrol students, see students’
+marks, prepare questions, take quizzes etc.
+- Students can enrol in courses, view course contents, participate in exams and see results
+- Tools used: Django, Bootstrap, Node.js
+![EBRAC Learning App Demo](/assets/img/Functionalities.gif)
 
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
+### Veggy - Vegetarian Recipe Maker App
+[repo](https://github.com/MotaharMahtab/django_vegetarian_recipe)
 
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
+- This web app allows users to view different vegetarian recipes, see their total calories, nutrients like protein, carbohydrate, fat and their ingre‑
+dients.
+- Users can create their own vegetarian recipes by mixing different ingredients available on the web app. They can also see the total nutrients
+and calories of their created recipe
+- Tools used: Django, Bootstrap, Node.js
+![Veggy recipe maker app Demo](/assets/img/Functionalities_recipe.gif)
 
-## Publications
-1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
-2. Wijeratne, L.O.; Kiv, D.R.; Aker, A.R.; Talebi, S.; Lary, D.J. Using Machine Learning for the Calibration of Airborne Particulate Sensors. Sensors 2020, 20, 99.
-3. Lary, D.J.; Schaefer, D.; Waczak, J.; Aker, A.; Barbosa, A.; Wijeratne, L.O.H.; Talebi, S.; Fernando, B.; Sadler, J.; Lary, T.; Lary, M.D. Autonomous Learning of New Environments with a Robotic Team Employing Hyper-Spectral Remote Sensing, Comprehensive In-Situ Sensing and Machine Learning. Sensors 2021, 21, 2240. https://doi.org/10.3390/s21062240
-4. Zhang, Y.; Wijeratne, L.O.H.; Talebi, S.; Lary, D.J. Machine Learning for Light Sensor Calibration. Sensors 2021, 21, 6259. https://doi.org/10.3390/s21186259
-5. Talebi, S.; Waczak, J.; Fernando, B.; Sridhar, A.; Lary, D.J. Data-Driven EEG Band Discovery with Decision Trees. Preprints 2022, 2022030145 (doi: 10.20944/preprints202203.0145.v1).
-6. Fernando, B.A.; Sridhar, A.; Talebi, S.; Waczak, J.; Lary, D.J. Unsupervised Blink Detection Using Eye Aspect Ratio Values. Preprints 2022, 2022030200 (doi: 10.20944/preprints202203.0200.v1).
-7. Talebi, S. et al. Decoding Physical and Cognitive Impacts of PM Concentrations at Ultra-fine Scales, 29 March 2022, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-1499191/v1]
-8. Lary, D.J. et al. (2022). Machine Learning, Big Data, and Spatial Tools: A Combination to Reveal Complex Facts That Impact Environmental Health. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_12
-9. Wijerante, L.O.H. et al. (2022). Advancement in Airborne Particulate Estimation Using Machine Learning. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_13
+## Notable Publications
+### BanglaBait: A Bangla Clickbait Detection Dataset for Identifying Clickbaits in Bangla News Articles ‑ Journal Paper
+<em>19th International Conference on Distributed Computing and Artificial Intelligence (Guimarães (Portugal),2022)</em>
+- Listed as First Author
+- First Bangla Clickbait News Article Dataset containing 15,056 data instances, each containing article title, content, clickbait/non clickbait label,
+article source, article category, article publish‑time, translated English title and content.
+- Investigated with various semi‑supervised learning methods and compared it with supervised learning methods to prove the former’s superi‑
+ority.
 
-- [Data Science Blog](https://medium.com/@shawhin)
+### A GAN‑BERT Based Approach for Bengali Text Classification with a Few Labeled Examples
+[<em>19th International Conference on Distributed Computing and Artificial Intelligence (Guimarães (Portugal),2022)</em>](https://link.springer.com/chapter/10.1007/978-3-031-20859-1_3)
+- Trained state‑of‑the‑art Transformer networks in adversarial fashion using Generative Adversarial Network (GAN) to achieve superior perfor‑
+mance when labeled dataset size is too small.
+- First Bangla Paper to investigate the application of GAN‑BERT on Bangla text classification tasks
+
+### Comparative Analysis on Joint Modeling of Emotion and Abuse Detection in Bangla language
+[<em>5th International Conference on Advances in Computing and Data Sciences (GPCET, Kurnool, India, 2022)</em>](https://link.springer.com/chapter/10.1007/978-3-031-12641-3_17)
+- A comparative analysis of different researches made on detecting emotional and abusive Bangla language
+- Present the best approach that tailors certain attributes of emotional and abusive language detection with respect to their prognosis perfor‑
+mance and their implementation toughness in Bangla lingo.
+
+## Awards
+- Winner, BRACU Intra University Programming Contest 2019
+- Merit Scholarship Award, BRAC University  (2020-2022)
+-![Resume](/assets/resume.pdf)

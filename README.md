@@ -33,7 +33,7 @@ guage to facilitate large‑scale annotation of Bangla Natinal Corpus(bdNC).
 
 ## Projects
 ### Bangla Clickbait Detector App
-[repo](https://github.com/MotaharMahtab/Bangla-Clickbait-Detector-App)
+[repo](https://github.com/mdmotaharmahtab/Bangla-Clickbait-Detector-App)
 -  Demo app created as a part of research work on Bangla Clickbait Detection using GAN‑Transformers. It takes a Bangla article title as input and
 outputs whether the title is a clickbait or non‑clickbait along with the prediction probability score. GAN‑Transformers is a Transformer network
 trained in generative adversarial training framework.
@@ -42,7 +42,7 @@ trained in generative adversarial training framework.
 ![clickbait_detection_demo](/assets/img/clickbait_detection_demo.gif)
 
 ### Bangla Article Headline Categorizer App
-[repo](https://github.com/MotaharMahtab/Bangla-Headline-Categorizer-App)
+[repo](https://github.com/mdmotaharmahtab/Bangla-Headline-Categorizer-App)
 
 - Can categorize Bangla article headlines into eight different categories ‑ Economy, Education, Entertainment, Politics, International, Sports,
 National, and Science & Technology
@@ -52,7 +52,7 @@ Bangla news sites.
 ![Headline Categorizer Demo](/assets/img/headline_detector_demo.gif)
 
 ### EBRAC ‑ Online Learning App
-[repo](https://github.com/MotaharMahtab/EBRAC)
+[repo](https://github.com/mdmotaharmahtab/EBRAC)
 
 - A comprehensive online education platform where instructors can create different courses, upload course content, enrol students, see students’
 marks, prepare questions, take quizzes etc.
@@ -61,7 +61,7 @@ marks, prepare questions, take quizzes etc.
 ![EBRAC Learning App Demo](/assets/img/Functionalities.gif)
 
 ### Veggie - Vegetarian Recipe Maker App
-[repo](https://github.com/MotaharMahtab/django_vegetarian_recipe)
+[repo](https://github.com/mdmotaharmahtab/django_vegetarian_recipe)
 
 - This web app allows users to view different vegetarian recipes, see their total calories, nutrients like protein, carbohydrate, fat and their ingre‑
 dients.
@@ -95,4 +95,4 @@ mance and their implementation toughness in Bangla lingo.
 - Winner, BRACU Intra University Programming Contest 2019
 - Merit Scholarship Award, BRAC University  (2020-2022)
 
-**[Resume](https://drive.google.com/file/d/1flNd_4FeX8PtISXNqh-6OhYR9y-CPiSG/view?usp=sharing)
+**[Resume](https://drive.google.com/file/d/1gMp7a0_o2_lL-1n_X4ffykpVjWIm0D8l/view?usp=sharing)

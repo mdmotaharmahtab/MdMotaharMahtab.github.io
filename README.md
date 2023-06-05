@@ -57,7 +57,7 @@ marks, prepare questions, take quizzes etc.
 - Tools used: Django, Bootstrap, Node.js
 ![EBRAC Learning App Demo](/assets/img/Functionalities.gif)
 
-### Veggy - Vegetarian Recipe Maker App
+### Veggie - Vegetarian Recipe Maker App
 [repo](https://github.com/MotaharMahtab/django_vegetarian_recipe)
 
 - This web app allows users to view different vegetarian recipes, see their total calories, nutrients like protein, carbohydrate, fat and their ingre‑

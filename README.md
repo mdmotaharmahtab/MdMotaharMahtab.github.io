@@ -1,8 +1,11 @@
 # Machine Learning Engineer
 
-#### Frameworks: NLTK, PyTorch, Tensorflow, PyTorch Lightning, Huggingface, OpenCV, OpenMMLab, Keras, FastAI, Ray Tune, Wandb, TensorBoard,Pandas, Matplotlib, Seaborn
-#### Programming: Python, C/C++, JavaScript, SQL, Bash, JAVA, HTML/CSS, SQL
-#### Tools: REST API, Flask, Flask‑RESTful, Streamlit, Google Kubernetes, Docker, Cortex, GIT, Django, NodeJS, Google Cloud Platform, Amazon SageMaker, Tableau, Microsoft Office
+#### Frameworks:
+`NLTK, PyTorch, Tensorflow, PyTorch Lightning, Huggingface, OpenCV, OpenMMLab, Keras, FastAI, Ray Tune, Wandb, TensorBoard, Flair, OpenNMT, AllenNLP, Pandas, Matplotlib, Seaborn, Django, FastAPI`
+#### Programming: 
+`Python, C/C++, JAVA, Bash, SQL, HTML/CSS.`
+#### Tools: 
+`REST API, Flask, Tritron, Streamlit, Google Kubernetes, Docker, Cortex, GIT, Google Cloud Platform, Amazon SageMaker, Microsoft Office `
 
 ## Education
 - B.Sc (Hons), Computer Science & Engineering | BRAC University (_April 2022_)	| CGPA: 3.99							       		
@@ -92,5 +95,4 @@ mance and their implementation toughness in Bangla lingo.
 - Winner, BRACU Intra University Programming Contest 2019
 - Merit Scholarship Award, BRAC University  (2020-2022)
 
-## Resume
-
+**[Resume](https://drive.google.com/file/d/1flNd_4FeX8PtISXNqh-6OhYR9y-CPiSG/view?usp=sharing)

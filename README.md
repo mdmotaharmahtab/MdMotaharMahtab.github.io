@@ -1,11 +1,16 @@
 # Machine Learning Engineer
-
+#### ML Libraries
+`PyTorch, PyTorch Lightning, Huggingface, LangChain, OpenCV, Flair, OpenNMT, AllenNLP, NLTK, Pandas, Matplotlib, NumPy`
 #### Frameworks:
 `NLTK, PyTorch, Tensorflow, PyTorch Lightning, Huggingface, OpenCV, OpenMMLab, Keras, FastAI, Ray Tune, Wandb, TensorBoard, Flair, OpenNMT, AllenNLP, Pandas, Matplotlib, Seaborn, Django, FastAPI`
-#### Programming: 
-`Python, C/C++, Bash, SQL, HTML/CSS.`
-#### Tools: 
-`REST API, Flask, NVIDIA Tritron, Streamlit, Google Kubernetes, Docker, Cortex, GIT, Dask, DVC, MLflow, Pytorch Profiler, Locust, Podman, pre-commit, Amazon SageMaker, Microsoft Office `
+#### Web Frameworks
+`Flask, Django, FastAPI, Streamlit`
+#### Developer Tools
+`Git, Docker, Locust, pre-commit`
+#### ML Tools
+`Triton, Dask, DVC, MLflow, Elasticsearch, Qdrant, Ray Tune, Wandb, TensorBoard, Pytorch Profiler`
+#### Programming
+`Python, Bash, SQL`
 
 ## Education
 - B.Sc (Hons), Computer Science & Engineering | BRAC University (_April 2022_)	| CGPA: 3.99							       		
@@ -16,6 +21,7 @@
 **Jr. Machine Learning Engineer @ GIGATECH, BEXIMCO (_September 2022 - Present_)**
   - Created new state-of-the-art systems for a plethora of Bangla NLP tasks e.g. named entity recognition (NER), Parts of Speech (POS), Lemmatization, and Emotion recognition. Bangla Lemmatization and Emotion recognition systems are publicly available at [here](https://github.com/eblict-gigatech/BanLemma) and [here](https://sentiment.bangla.gov.bd/) respectively.
   - For efficient deployment of ML services which use Large Language Models (LLM), used Optimum and Onnx for onnx conversion and converted into Nvidia TensorRT(TRT) format for further optimization. Used Locust for load testing and pytorch profiler to reduce bottlenecks. Used Nvidia Triton Inference Server (TIS) as the inference server to facilitate concurrent request serving and scheduling, batch inference and response caching.
+  - Created REST APIs using FastAPI for hosting ML inference endpoints. Used MongoDB for response caching in NVIDIA Triton.
   - Created data augmentation pipeline to handle the class imbalance problem in sequence tagging tasks. Formulated a general test set creation guidelines for unbiased classification performance calculation.}
   - Used Qdrant vector DB for fast semantic searching, Dask to analyze and query big dataframes, DVC for dataset versioning and MLflow for model, artifact and experiment versioning.
   - Created pipeline for Natural Language generation (NLG) in Bangla for both encoder models like BERT and auto-regressive models like GPT2. Analyzed and overcame common issues like repetitive text generation, and unmeaningful word generation in NLG for Bangla.    
@@ -94,4 +100,13 @@ and calories of their created recipe
 - Winner, BRACU Intra University Programming Contest 2019
 - Merit Scholarship Award, BRAC University  (2020-2022)
 
+## Articles
+### Sparse Transformers Explained | Part 1 | Medium
+- Explained Sparse Transformers whcih reduces the computation complexity of the Transformer networks. GPT-3 uses the Sparse Transformers architecture in their Transformers.
+- [URL](https://medium.com/@mahtab27672767/sparse-transformers-explained-part-1-aacbe10dca4a)
+
+## Open Source Contributions
+### Flair | [PR Link](https://github.com/flairNLP/flair/pull/3449)
+- Flair is a framework for state-of-the-art NLP embeddings and training sequence models. Contributed to fixing a bug in the Flair framework which was causing incorrect prediction distribution output for a sequence of tokens in sequence classification tasks (Chosen to be merged in their next version release.)
+  
 **[Resume](https://drive.google.com/file/d/1b2DI6DLZNIfL1jck09XUZtQASk-yB37S/view?usp=sharing)

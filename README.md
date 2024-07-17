@@ -108,5 +108,8 @@ and calories of their created recipe
 ## Open Source Contributions
 ### Flair | [PR Link](https://github.com/flairNLP/flair/pull/3449)
 - Flair is a framework for state-of-the-art NLP embeddings and training sequence models. Contributed to fixing a bug in the Flair framework which was causing incorrect prediction distribution output for a sequence of tokens in sequence classification tasks (Chosen to be merged in their next version release.)
-  
-**[Resume](https://drive.google.com/file/d/1b2DI6DLZNIfL1jck09XUZtQASk-yB37S/view?usp=sharing)
+
+## Contact
+* Email: md.motahar.mahtab@g.bracu.ac.bd
+* LinkedIn: https://www.linkedin.com/in/motahar-mahtab/
+* [Resume](https://drive.google.com/file/d/1GuCoGKKE27Jna7_jggvio2viTC_wDeKg/view?usp=sharing)
